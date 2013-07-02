@@ -1,4 +1,5 @@
 <!--
+https://github.com/bangkokguy/android.githttps://github.com/bangkokguy/android.git
 General settings
 15 minutes settings - on-off
 2.) Dallam
@@ -15,7 +16,7 @@ http://developer.android.com/guide/topics/ui/settings.html#Custom
       <SwitchPreference
          android:key="minutes15allowed"
          android:title="@string/allowed"
-         android:summary="@string/summary_minutes15allowed" />
+         android:summary="@string/summary_minutes15allowed" android:defaultValue="false" />
       <ListPreference
          android:key="minutes15sound"
          android:title="@string/sound"
@@ -36,7 +37,7 @@ http://developer.android.com/guide/topics/ui/settings.html#Custom
       <SwitchPreference
          android:key="minutes30allowed"
          android:title="@string/allowed"
-         android:summary="@string/summary_minutes30allowed" />
+         android:summary="@string/summary_minutes30allowed" android:defaultValue="false"/>
       <ListPreference
          android:key="minutes30sound"
          android:title="@string/sound"
